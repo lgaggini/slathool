@@ -1,0 +1,30 @@
+<section class="about">
+    <!-- logo/author image -->
+    {% if GRAVATAR %}
+        <img class="icon" src="{{ GRAVATAR }}">
+    {% endif %}
+    <!-- short site description --!>
+    <h2>About Me</h2>
+    <p>{{ ABOUT }}</p>
+    <!-- link to about page -->
+    <a href="{{ SITEURL }}/pages/about.html" class="icon-info"></a>
+    <!-- some social icon/link -->
+    {% if SOCIAL_GITHUB %}
+        <a href="{{ SOCIAL_GITHUB }}" class="icon-github"></a>
+    {% endif %}
+    {% if SOCIAL_STACKEXCHANGE %}
+        <a href="{{ SOCIAL_STACKEXCHANGE }}" class="icon-stack"></a>
+    {% endif %}
+    {% if SOCIAL_STACKCARRERS %}
+        <a href="{{ SOCIAL_STACKCARRERS }}" class="icon-careers"></a>
+    {% endif %}
+    {% if SOCIAL_EMAIL %}
+        <a href="mailto:{{ SOCIAL_EMAIL }}" class="icon-email"></a>
+    {% endif %}
+    {% if SOCIAL_PGP %}
+        <a href="{{ SOCIAL_PGP }}" class="icon-lock"></a>
+    {% endif %}
+    {% if FEED_ALL_ATOM %}
+        <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" class="icon-rss"></a>
+    {% endif %}
+</section>
