@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 body {
-    padding-top: 70px;
+    padding-top: 0px;
 }
 
 #sidebar .list-group, #sidebar .list-group-item {
@@ -31,16 +34,16 @@ body {
 }
 
 #sidebar a {
-    color: inherit;
+    color: #999;
 }
 
 i {
     margin-right: 10px;
 }
 
-a, a:hover {
+/*a, a:hover {
     color: inherit;
-}
+}*/
 
 .entry-content a {
     text-decoration: none;
@@ -77,4 +80,215 @@ a, a:hover {
     text-align: inherit;
     white-space: inherit;
     border-radius: inherit;
+}
+
+html, body {
+  background-color: #2a2a2a;
+  background: url(../images/bgs/body.png) repeat;
+}
+
+body {
+  text-shadow: 1px 1px 1px #000;
+  height: 100%;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+  color: #999;
+  text-rendering: optimizelegibility;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+a {
+  color: #4cb4e8;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #d4edf9;
+  text-decoration: underline;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-weight: normal;
+  color: #999999;
+}
+
+h1, h2 {
+  margin: 0 0 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+pre, code {
+  color: #ccc;
+}
+
+pre > code {
+  /* Reset box-shadow for pygments */
+  background: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+}
+
+hr {
+  border: none;
+  background: rgba(0, 0, 0, 0.7);
+  height: 1px;
+}
+
+.navbar {
+  margin-top: 0;
+  min-height: 0;
+}
+
+.navbar div.navbar-inner {
+background-image: -webkit-linear-gradient(top,#333,#222)
+}
+
+.navbar div.navbar-inner a.navbar-brand {
+  padding: 10px 0px;
+}
+
+.navbar div.navbar-inner ul.nav:first-child li a {
+  padding: 12px 10px 8px;
+}
+
+.container > footer {
+  margin-top: 20px;
+  clear: both;
+}
+
+.container > footer p {
+  text-align: center;
+  /* center align it with the container */
+}
+
+.content img {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.content div.row div.col-lg-8 > img {
+  display: block;
+  margin: 10px auto;
+}
+
+.content div.row div.col-lg-4 h4 {
+  margin-top: 10px;
+}
+
+.content div.row div.col-lg-8 h4:first {
+  margin-top: 0;
+}
+
+.content p {
+  padding-bottom: 15px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.page-header {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  background: #202020;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  padding: 20px 20px 10px;
+  z-index: 0;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -ms-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -ms-border-bottom-right-radius: 5px;
+  -o-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.page-header h1 {
+  color: #eee;
+  margin-bottom: 0;
+}
+
+.topbar .btn {
+  border: 0;
+}
+
+div.pagination li a {
+  -webkit-box-shadow: 0px 1px 1px black;
+  -moz-box-shadow: 0px 1px 1px black;
+  box-shadow: 0px 1px 1px black;
+}
+
+a.btn, a.btn.disabled {
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 1px 1px 2px #000;
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0, rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+}
+
+a.btn:hover, a.btn.disabled:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+a.btn.disabled, a.btn.disabled.disabled {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+div#sidebar section {
+  background: #202020;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: right;
+}
+
+div#sidebar section img.icon {
+  float: left;
+  margin: 7px 15px 0 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+cite {
+  font-style: italic;
+}
+
+.published {
+    float: right
+}
+
+.post-info {
+    float: right
 }
