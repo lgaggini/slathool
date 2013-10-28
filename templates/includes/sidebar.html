@@ -10,15 +10,14 @@
     <section>
         <!-- categories list -->
         <ul class="list-group list-group-flush">
-            <h3>Categories</h3>
-                <li class="list-group-item"></li>
-                    {% for cat, null in categories %}
-                        <li class="list-group-item">
-                            <a href="{{ SITEURL }}/{{ cat.url }}">
-                                </i>{{ cat }}
-                            </a>
-                        </li>
-                    {% endfor %}
+            <li class="list-group-item"><h3>Categories</h3></li>
+                {% for cat, null in categories %}
+                    <li class="list-group-item">
+                        <a href="{{ SITEURL }}/{{ cat.url }}">
+                            <i class="glyphicon glyphicon-folder-close"></i>{{ cat }}
+                        </a>
+                    </li>
+                {% endfor %}
         </ul>
     </section>
 </aside>
