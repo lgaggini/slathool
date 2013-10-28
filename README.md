@@ -27,7 +27,7 @@ This theme honors the following standard Pelican settings:
 plus custom settings:
 
 * Site slogan, next to site title
-    * `SITE_SLOGAN`
+    * `SITESLOGAN`
 * Short info for about box
     * `ABOUT`
 * Minimal social icon link for about box
