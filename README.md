@@ -54,4 +54,4 @@ If you're using reStructuredText for writing articles and pages, you can include
 
 ## On air
 
-[](http://lgaggini.net)
+[lgaggini.net](http://lgaggini.net)
