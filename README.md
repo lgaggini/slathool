@@ -23,6 +23,9 @@ This theme honors the following standard Pelican settings:
     * `MENUITEMS`
 * Analytics & Comments
     * `DISQUS_SITENAME`
+    * `PIWIK_URL`
+    * `PIWIK_SSL_URL`
+    * `PIWIK_SITE_ID`
 
 plus custom settings:
 
