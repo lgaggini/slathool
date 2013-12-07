@@ -16,16 +16,18 @@ Point the `THEME` variable in your `pelicanconf.py` to `/path/to/slathool`
 
 This theme honors the following standard Pelican settings:
 
-* Putting feeds in the `<head>` section:
+* Putting feeds in the `<head>` section globally and by category:
+    * `FEED_DOMAIN`
     * `FEED_ALL_ATOM`
+    * `CATEGORY_FEED_ATOM`
 * Template settings:
     * `DISPLAY_PAGES_ON_MENU`
     * `MENUITEMS`
 * Analytics & Comments
-    * `DISQUS_SITENAME`
     * `PIWIK_URL`
     * `PIWIK_SSL_URL`
     * `PIWIK_SITE_ID`
+    * `DISQUS_SITENAME`
 
 plus custom settings:
 
