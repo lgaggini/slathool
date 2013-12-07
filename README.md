@@ -40,7 +40,7 @@ plus custom settings:
     * `SOCIAL_STACKCARRERS`
     * `SOCIAL_EMAIL`
     * `SOCIAL_PGP`
-* Random quote plugin
+* [Random quote plugin](https://github.com/lgaggini/random_quote)
     * `RANDOM_QUOTE`
 
 ## Extras
