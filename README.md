@@ -35,11 +35,14 @@ plus custom settings:
     * `SITESLOGAN`
 * Short info for about box
     * `ABOUT`
+* Link to personal profile
+    * `PROFILE`
 * Minimal social icon link for about box
     * `GRAVATAR`
     * `SOCIAL_GITHUB`
+    * `SOCIAL_GITHUB`
     * `SOCIAL_STACKEXCHANGE`
-    * `SOCIAL_STACKCARRERS`
+    * `SOCIAL_CV`
     * `SOCIAL_EMAIL`
     * `SOCIAL_PGP`
 * [Random quote plugin](https://github.com/lgaggini/random_quote)
