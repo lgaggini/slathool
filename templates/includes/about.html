@@ -7,7 +7,9 @@
     <h2>About Me</h2>
     <p>{{ ABOUT }}</p>
     <!-- link to about page -->
-    <a href="{{ SITEURL }}/pages/about.html" class="icon-info"></a>
+    {% if PROFILE %}
+        <a href="{{ PROFILE }}" class="icon-info"></a>
+    {% endif %}
     <!-- some social icon/link -->
     {% if SOCIAL_GITHUB %}
         <a href="{{ SOCIAL_GITHUB }}" class="icon-github"></a>
@@ -16,7 +18,7 @@
         <a href="{{ SOCIAL_STACKEXCHANGE }}" class="icon-stack"></a>
     {% endif %}
     {% if SOCIAL_STACKCARRERS %}
-        <a href="{{ SOCIAL_STACKCARRERS }}" class="icon-careers"></a>
+        <a href="{{ SOCIAL_CV }}" class="icon-careers"></a>
     {% endif %}
     {% if SOCIAL_EMAIL %}
         <a href="mailto:{{ SOCIAL_EMAIL }}" class="icon-email"></a>
