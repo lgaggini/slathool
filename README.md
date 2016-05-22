@@ -62,4 +62,4 @@ If you're using reStructuredText for writing articles and pages, you can include
 
 ## On air
 
-[lgaggini.net](http://lgaggini.net)
+[blog.lgaggini.net](http://blog.lgaggini.net)
