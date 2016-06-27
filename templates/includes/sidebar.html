@@ -1,12 +1,16 @@
 <aside>
     <!-- about box -->
     {% include 'includes/about.html' %}
-    
+
     <!-- random quote on generation by plugin -->
     {% if RANDOM_QUOTE %}
         {% include 'includes/cite.html' %}
     {% endif %}
-    
+
+    {% if DEMO %}
+        {% include 'includes/demo.html' %}
+    {% endif %}
+
     <section>
         <!-- categories list -->
         <ul class="list-group list-group-flush">
