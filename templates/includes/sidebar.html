@@ -7,10 +7,14 @@
         {% include 'includes/cite.html' %}
     {% endif %}
 
+    {% if BROADCAST %}
+        {% include 'includes/broadcast.html' %}
+    {% endif %}
+
     {% if DEMO %}
         {% include 'includes/demo.html' %}
     {% endif %}
-
+    
     <section>
         <!-- categories list -->
         <ul class="list-group list-group-flush">
