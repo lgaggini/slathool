@@ -2,6 +2,6 @@
 {% block title %}{{ SITENAME }} - {{ category }}{% endblock %}
 {% block head %}
     {% if CATEGORY_FEED_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} - {{ category }} Atom Feed" />
+        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(slug=category) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} - {{ category }} Atom Feed" />
     {% endif %}
 {% endblock %}
