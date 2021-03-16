@@ -1,6 +1,20 @@
 {% extends "index.html" %}
 {% block title %}{{ SITENAME }} - {{ category }}{% endblock %}
 {% block head %}
+    {% if BOOTSTRAP_THEME %}
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.{{ BOOTSTRAP_THEME }}.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css" />
+    {% endif %}
+    <link href="{{ SITEURL }}/theme/css/my-zocial.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
+    {% if DOCUTIL_CSS %}
+        <link href="{{ SITEURL }}/theme/css/html4css1.css" rel="stylesheet">
+    {% endif %}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
+    <!-- javaScript plugins (requires jQuery) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- feed -->
     {% if CATEGORY_FEED_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM.format(slug=category) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} - {{ category }} Atom Feed" />
     {% endif %}
