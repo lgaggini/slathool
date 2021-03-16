@@ -1,6 +1,7 @@
 {% extends "index.html" %}
-{% block title %}{{ SITENAME }} - {{ category }}{% endblock %}
 {% block head %}
+    <title>{% block title %}{{ SITENAME }} - {{ category }}{% endblock title %}</title>
+    <meta charset="utf-8" />
     {% if BOOTSTRAP_THEME %}
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.{{ BOOTSTRAP_THEME }}.min.css" type="text/css" />
     {% else %}
